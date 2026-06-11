@@ -1,0 +1,43 @@
+{
+  "filters": [
+    {
+      "id": "folder-filter",
+      "field": "file.folder",
+      "operator": "equals",
+      "value": "20_Stocks"
+    }
+  ],
+  "views": [
+    {
+      "id": "table-view",
+      "name": "종목 테이블",
+      "type": "table",
+      "columns": {
+        "file": { "width": 180 },
+        "종목코드": { "width": 100 },
+        "섹터": { "width": 180 },
+        "시장": { "width": 80 },
+        "현재가": { "width": 100 },
+        "PER": { "width": 80 },
+        "PER_forward": { "width": 100 },
+        "목표가_컨센서스": { "width": 130 },
+        "목표가_괴리율": { "width": 110 },
+        "업데이트": { "width": 110 }
+      },
+      "order": [
+        "file",
+        "종목코드",
+        "섹터",
+        "시장",
+        "현재가",
+        "PER",
+        "PER_forward",
+        "목표가_컨센서스",
+        "목표가_괴리율",
+        "업데이트"
+      ],
+      "filters": [],
+      "sort": []
+    }
+  ]
+}

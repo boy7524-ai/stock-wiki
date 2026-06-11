@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "main-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "main-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bases-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "10_Summary/종목_테이블.base",
+                "viewName": "종목 테이블"
+              },
+              "icon": "lucide-table",
+              "title": "종목_테이블"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "left-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "file-explorer-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "search-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "right-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "tag-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "bases-leaf",
+  "lastOpenFiles": [
+    "10_Summary/종목_테이블.base"
+  ]
+}

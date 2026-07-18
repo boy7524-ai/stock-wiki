@@ -18,6 +18,12 @@ data_source: "failed"
 
 # HD현대중공업 (329180) — 2026-07-09
 
+## 최신 이슈 (2026-07-18)
+### 가격 cascade 전체 실패 — 저장값 577,000원(7/3) 유지, 2Q26 실적 D-5(2026-07-23)
+- **7/18 가격 cascade 전체 실패**: Yahoo Finance v8·FnGuide·Investing.com 모두 403·WebSearch 날짜 명시 종가 미확인 — frontmatter 현재가(577,000원, 7/3 기준) 유지, data_source="failed"
+- **2Q26 실적 발표 2026-07-23(목) D-5**: 영업이익 4,715억원(+141% YoY) 잠정 전망 — 수주 모멘텀·고선가 반영 확인 주목
+- 목표가_컨센서스(1,000,000원) 기준 목표가_괴리율 **+73.3%** 유지
+
 ## 최신 이슈 (2026-07-17)
 ### 가격 cascade 전체 실패 — 저장값 577,000원(7/3) 유지, 2Q26 실적 D-6(2026-07-23)
 - **7/17 가격 cascade 전체 실패**: Yahoo Finance v8·FnGuide·Investing.com 모두 403·WebSearch 날짜 명시 종가 미확인 — frontmatter 현재가(577,000원, 7/3 기준) 유지, data_source="failed"
